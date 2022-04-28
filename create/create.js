@@ -121,7 +121,7 @@ async function onEncrypt() {
 
   const encrypted = await generateFragment(url, password, hint, useRandomSalt,
       useRandomIv);
-  const output = `https://link-lock.reel-official.ml/#${encrypted}`;
+  const output = `https://www.reel-llock.ml/#${encrypted}`;
 
   document.querySelector("#output").value = output;
   highlight("output");
